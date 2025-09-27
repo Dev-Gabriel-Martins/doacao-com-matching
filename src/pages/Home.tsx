@@ -10,9 +10,7 @@ export default function Home() {
       <section className="relative overflow-hidden px-6 pt-16 pb-12">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10" />
         <div className="relative max-w-md mx-auto text-center">
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-primary to-primary-glow mb-6 shadow-lg">
-            <img src={logo} alt="DoaFácil" className="w-12 h-12" />
-          </div>
+          <img src={logo} alt="DoaFácil" className="w-20 h-20 mb-6" />
           
           <h1 className="text-3xl font-bold text-foreground mb-4 leading-tight">
             Conecte sua doação com quem mais precisa
