@@ -1,6 +1,7 @@
 import { ArrowRight, Heart, MapPin, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10" />
         <div className="relative max-w-md mx-auto text-center">
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-primary to-primary-glow mb-6 shadow-lg">
-            <Heart className="w-10 h-10 text-white" />
+            <img src={logo} alt="DoaFácil" className="w-12 h-12" />
           </div>
           
           <h1 className="text-3xl font-bold text-foreground mb-4 leading-tight">
